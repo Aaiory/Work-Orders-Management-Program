@@ -1,0 +1,866 @@
+('D:\\Work Order Application\\build\\Work Order Program\\Work Order '
+ 'Program.pkg',
+ {'BINARY': True,
+  'DATA': True,
+  'EXECUTABLE': True,
+  'EXTENSION': True,
+  'PYMODULE': True,
+  'PYSOURCE': True,
+  'PYZ': False,
+  'SPLASH': True},
+ [('PYZ-00.pyz',
+   'D:\\Work Order Application\\build\\Work Order Program\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'D:\\Work Order Application\\build\\Work Order '
+   'Program\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'D:\\Work Order Application\\build\\Work Order '
+   'Program\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'D:\\Work Order Application\\build\\Work Order '
+   'Program\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'D:\\Work Order Application\\build\\Work Order '
+   'Program\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'D:\\Work Order Application\\build\\Work Order '
+   'Program\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgres',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgres.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('Work Order Program',
+   'D:\\Work Order Application\\Work Order Program.py',
+   'PYSOURCE'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python310.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\python310.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('zlib.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\zlib.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_des3.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_des3.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_aes.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_aes.pyd',
+   'BINARY'),
+  ('Crypto\\PublicKey\\_ed25519.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\PublicKey\\_ed25519.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD5.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_MD5.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cbc.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_cbc.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cfb.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_cfb.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_BLAKE2b.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2b.pyd',
+   'BINARY'),
+  ('Crypto\\PublicKey\\_x25519.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\PublicKey\\_x25519.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA512.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_SHA512.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_BLAKE2s.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_BLAKE2s.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA256.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_SHA256.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_keccak.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_keccak.pyd',
+   'BINARY'),
+  ('Crypto\\Protocol\\_scrypt.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Protocol\\_scrypt.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ecb.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_ecb.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ocb.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_ocb.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_RIPEMD160.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_RIPEMD160.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qpdf.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qpdf.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_blowfish.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_blowfish.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_aesni.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_aesni.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ctr.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_ctr.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('Crypto\\Math\\_modexp.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Math\\_modexp.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\tls\\qcertonlybackend.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_chacha20.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_chacha20.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_ofb.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_ofb.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_eksblowfish.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_eksblowfish.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qico.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_ghash_clmul.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_ghash_clmul.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_arc2.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_arc2.pyd',
+   'BINARY'),
+  ('Crypto\\PublicKey\\_ed448.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\PublicKey\\_ed448.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_ARC4.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_ARC4.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA224.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_SHA224.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA384.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_SHA384.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\tls\\qopensslbackend.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_SHA1.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_SHA1.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PySide6\\opengl32sw.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_pkcs1_decode.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_pkcs1_decode.pyd',
+   'BINARY'),
+  ('Crypto\\Util\\_cpuid_c.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Util\\_cpuid_c.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
+  ('Crypto\\Util\\_strxor.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Util\\_strxor.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD2.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_MD2.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_poly1305.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_poly1305.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qminimal.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
+   'BINARY'),
+  ('Crypto\\Hash\\_MD4.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_MD4.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_des.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_des.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
+   'BINARY'),
+  ('Crypto\\PublicKey\\_ec_ws.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\PublicKey\\_ec_ws.pyd',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('Crypto\\Cipher\\_Salsa20.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_Salsa20.pyd',
+   'BINARY'),
+  ('Crypto\\Cipher\\_raw_cast.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Cipher\\_raw_cast.pyd',
+   'BINARY'),
+  ('Crypto\\Hash\\_ghash_portable.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\Crypto\\Hash\\_ghash_portable.pyd',
+   'BINARY'),
+  ('select.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_cffi_backend.cp310-win_amd64.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\_cffi_backend.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_webp.cp310-win_amd64.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PIL\\_webp.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imagingtk.cp310-win_amd64.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PIL\\_imagingtk.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('PIL\\_imaging.cp310-win_amd64.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PIL\\_imaging.cp310-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtWidgets.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\QtWidgets.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtCore.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\QtCore.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtNetwork.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\QtNetwork.pyd',
+   'EXTENSION'),
+  ('shiboken6\\Shiboken.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\shiboken6\\Shiboken.pyd',
+   'EXTENSION'),
+  ('PySide6\\QtGui.pyd',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\QtGui.pyd',
+   'EXTENSION'),
+  ('PySide6\\Qt6Core.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Gui.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Gui.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('MSVCP140.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\MSVCP140.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Network.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Svg.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Svg.dll',
+   'BINARY'),
+  ('PySide6\\Qt6VirtualKeyboard.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6VirtualKeyboard.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Pdf.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Pdf.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Widgets.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Widgets.dll',
+   'BINARY'),
+  ('liblzma.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\liblzma.dll',
+   'BINARY'),
+  ('LIBBZ2.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\LIBBZ2.dll',
+   'BINARY'),
+  ('libcrypto-1_1-x64.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\libcrypto-1_1-x64.dll',
+   'BINARY'),
+  ('ffi.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\ffi.dll',
+   'BINARY'),
+  ('libssl-1_1-x64.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\libssl-1_1-x64.dll',
+   'BINARY'),
+  ('tiff.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\tiff.dll',
+   'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order Application\\python3.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\MSVCP140.dll',
+   'BINARY'),
+  ('PySide6\\VCRUNTIME140_1.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
+  ('shiboken6\\shiboken6.abi3.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('shiboken6\\VCRUNTIME140_1.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\shiboken6\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_2.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\MSVCP140_2.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140_1.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Qml.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Qml.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Quick.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
+   'BINARY'),
+  ('Lerc.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\Lerc.dll',
+   'BINARY'),
+  ('zstd.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\zstd.dll',
+   'BINARY'),
+  ('deflate.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Library\\bin\\deflate.dll',
+   'BINARY'),
+  ('PySide6\\Qt6OpenGL.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6OpenGL.dll',
+   'BINARY'),
+  ('PySide6\\Qt6QmlModels.dll',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\Lib\\site-packages\\PySide6\\Qt6QmlModels.dll',
+   'BINARY'),
+  ('icons\\browse.ico',
+   'D:\\Work Order Application\\icons\\browse.ico',
+   'DATA'),
+  ('icons\\move-files.ico',
+   'D:\\Work Order Application\\icons\\move-files.ico',
+   'DATA'),
+  ('icons\\rename.ico',
+   'D:\\Work Order Application\\icons\\rename.ico',
+   'DATA'),
+  ('icons\\folder.ico',
+   'D:\\Work Order Application\\icons\\folder.ico',
+   'DATA'),
+  ('Fillable Work order template.pdf',
+   'D:\\Work Order Application\\Fillable Work order template.pdf',
+   'DATA'),
+  ('icons\\clear.ico', 'D:\\Work Order Application\\icons\\clear.ico', 'DATA'),
+  ('icons\\merge.ico', 'D:\\Work Order Application\\icons\\merge.ico', 'DATA'),
+  ('base_library.zip',
+   'D:\\Work Order Application\\build\\Work Order Program\\base_library.zip',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_bg.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ja.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_it.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'C:\\Users\\alexi\\anaconda3\\envs\\Work Order '
+   'Application\\lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\SOURCES.txt',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\SOURCES.txt',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\top_level.txt',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\top_level.txt',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\entry_points.txt',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\entry_points.txt',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\dependency_links.txt',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\dependency_links.txt',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\not-zip-safe',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\not-zip-safe',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\requires.txt',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\requires.txt',
+   'DATA'),
+  ('wheel-0.38.4-py3.10.egg-info\\PKG-INFO',
+   'c:\\users\\alexi\\anaconda3\\envs\\work order '
+   'application\\lib\\site-packages\\wheel-0.38.4-py3.10.egg-info\\PKG-INFO',
+   'DATA')],
+ False,
+ False,
+ False,
+ [],
+ None,
+ None,
+ None)
