@@ -2,9 +2,9 @@ import os
 
 import FileArrangement
 import sys
-from PySide6.QtGui import QFont, QIcon, Qt
+from PySide6.QtGui import QFont, QIcon
 from PySide6.QtWidgets import (
-    QApplication, QMainWindow, QVBoxLayout, QLabel, QTextEdit, QStatusBar,
+    QApplication, QMainWindow, QVBoxLayout, QLabel, QStatusBar,
     QGridLayout, QToolBar, QStyleFactory, QComboBox, QPushButton,
     QLineEdit, QWidget, QFileDialog, QMessageBox, QTableWidget, QAbstractItemView, QTableWidgetItem, QHeaderView
 )
@@ -42,12 +42,6 @@ class MainWindow(QMainWindow):
         font_size_combo.currentIndexChanged.connect(self.select_font_size)
         self.toolbar.addWidget(font_size_combo)
 
-        # Add clear folders button
-        clear_folders_button = QPushButton("Clear Work/Move Folders")
-        clear_folders_button.setToolTip("Clear Work Folder and Move Folder")
-        clear_folders_button.clicked.connect(self.clear_folders)
-        self.toolbar.addWidget(clear_folders_button)
-
         # Load the last used theme
         last_used_theme = load_last_used_theme()
         if last_used_theme:
@@ -66,9 +60,9 @@ class MainWindow(QMainWindow):
         self.browse_button.setFixedSize(50, 30)
         self.browse_button.clicked.connect(self.open_folder_dialog)
         self.clear_button = QPushButton()
-        self.clear_button.setIcon(QIcon("icons/clear.ico"))
+        self.clear_button.setIcon(QIcon("icons/trash.ico"))
         self.clear_button.setFixedSize(50, 30)
-        self.clear_button.clicked.connect(self.clear_folder_path)
+        self.clear_button.clicked.connect(self.clear_folders)
 
         grid_layout.addWidget(self.path_label, 0, 0)
         grid_layout.addWidget(self.path_input, 0, 1)
@@ -214,9 +208,6 @@ class MainWindow(QMainWindow):
             self.path_input.setText(selected_folder)
             self.display_content()
             save_last_used_directory(selected_folder)
-
-    def clear_folder_path(self):
-        self.path_input.clear()
 
     def display_content(self):
         root_folder_path = self.path_input.text()
